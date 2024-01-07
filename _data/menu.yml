@@ -2,16 +2,14 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: info
+  - title: THIS WEBSITE IS IN DEVELOPEMENT
     entries:
-      - title: a (nearly) no-CSS, fast, minimalist Jekyll theme.
-      - title: github repo
-        url: https://github.com/riggraz/no-style-please
-      - title: "used by <a href='https://riggraz.dev'>riggraz.dev</a> and <a href='https://github.com/riggraz/no-style-please/network/dependents'>many others</a>"
-
+      - title: 
+        I'm Sagar, an experienced Data Consultant with a track record spanning 6+ years in Data Engineering and Data Science roles. Specializing in building data pipelines, designing warehouses and ML models my journey includes contributions to projects for organizations like Audible, Bill & Melinda Gates Foundation, UKTV, and more. Join me on this technical exploration as we delve into the intricacies of data engineering, analytics, and machine learning on this blog.
+      - title: "find me on <a href='https://www.linkedin.com/in/sagardhungel/'>linkedin</a>"
   - title: all posts
     post_list:
-      limit: 5
+      limit: 10
       show_more: true
       show_more_text: See archive...
       show_more_url: archive.html
@@ -22,7 +20,7 @@ entries:
       show_more: true
       show_more_text: See more posts...
       show_more_url: example2-archive.html
-
+      
   - title: rss
     url: feed.xml
   
@@ -33,6 +31,3 @@ entries:
           - title: with subsubitems
           - title: example page
             url: about
-  - title: PRO TIP
-    entries:
-      - title: to edit this menu, edit _data/menu.yml file
