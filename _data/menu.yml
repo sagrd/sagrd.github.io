@@ -4,8 +4,7 @@
 entries:
   - title: THIS WEBSITE IS IN DEVELOPEMENT
     entries:
-      - title: I'm Sagar, an experienced Data Consultant with a track record spanning 6+ years in Data Engineering and Data Science roles. Specializing in building data pipelines, designing warehouses and ML models my journey includes contributions to projects for organizations like Audible, Bill & Melinda Gates Foundation, UKTV, and more. Join me on this technical exploration as we delve into the intricacies of data engineering, analytics, and machine learning on this blog.
-      - title: "find me on <a href='https://www.linkedin.com/in/sagardhungel/'>linkedin</a>"
+      - title: "I'm  <a href='https://www.linkedin.com/in/sagardhungel/'>Sagar</a>, a Data Science and Engineering Consultant. Join me on this blog as we dive into the technical intricacies of data engineering, analytics, and machine learning."
   - title: all posts
     post_list:
       limit: 10
@@ -30,3 +29,5 @@ entries:
           - title: with subsubitems
           - title: example page
             url: about
+
+
