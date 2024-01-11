@@ -4,7 +4,7 @@
 entries:
   - title: ON DEVELOPMENT
     entries:
-      - title: "I'm  <a href='https://www.linkedin.com/in/sagardhungel/'>Sagar</a>, a Data Science and Engineering Consultant. Join me on this blog as we dive into the technical intricacies of data engineering, analytics, and machine learning."
+      - title: "I'm  <a href='https://www.linkedin.com/in/sagardhungel/'>Sagar</a>, a Data Science and Engineering Consultant. Join me on this blog as we dive into the technical intricacies of Machine Learning, Analytics and Data Engineering."
   - title: all posts
     post_list:
       limit: 5
@@ -14,10 +14,10 @@ entries:
 
   - title: posts by category
     post_list:
-      category: example2
+      category: videos
       show_more: true
       show_more_text: See more posts...
-      show_more_url: example2-archive.html
+      show_more_url: videos-archive.html
 
   - title: rss
     url: feed.xml
