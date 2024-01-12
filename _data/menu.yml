@@ -9,15 +9,22 @@ entries:
     post_list:
       limit: 5
       show_more: true
-      show_more_text: See archive...
+      show_more_text: See all posts ...
       show_more_url: archive.html
 
   - title: videos
     post_list:
       category: videos
       show_more: true
-      show_more_text: See more posts...
-      show_more_url: videos-archive.html
+      show_more_text: See all posts...
+      show_more_url: archive-videos.html
+
+  - title: data engineering
+    post_list:
+      category: dataengineering
+      show_more: true
+      show_more_text: See all posts...
+      show_more_url: archive-dataengineering.html
   
   - title: another list
     entries:
