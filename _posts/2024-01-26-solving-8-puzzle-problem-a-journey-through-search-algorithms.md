@@ -5,7 +5,7 @@ category: mlandai
 
 ## Introduction
 
-![the 8 puzzle problem]({{site.url}}/images/8-puzzle.jpg){:.ioda}
+<img src="{{site.url | prepend: site.url}}images/8-puzzle.jpg" alt="the 8 puzzle problem" />
 
 The 8-puzzle problem, also known as the N-puzzle, is a classic puzzle that involves arranging numbered tiles in ascending order on a square grid with one empty space. In this post, we'll explore the implementation of three search algorithms – Breadth-First Search (BFS), Depth-First Search (DFS), and A-Star Search (AST) – to solve the 8-puzzle problem. The accompanying simplified Python code provides a practical look at these algorithms.
 
