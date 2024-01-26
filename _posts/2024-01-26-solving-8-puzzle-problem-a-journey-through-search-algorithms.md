@@ -33,7 +33,7 @@ The 8-puzzle consists of a board with movable tiles numbered 1 through 8 and an 
 
 BFS explores the search space level by level, visiting all nodes at the current level before moving on to the next level. It uses a queue to maintain the frontier of nodes to be explored.
 
-**Python Code:**
+**Simplified Python Code:**
 
 ```python
 from collections import deque
@@ -60,7 +60,7 @@ def bfs(initial_state):
 
 DFS explores as far as possible along each branch before backtracking. It uses a stack to keep track of nodes to be explored.
 
-**Python Code:**
+**Simplified Python Code:**
 
 ```python
 def dfs(initial_state):
@@ -85,7 +85,7 @@ def dfs(initial_state):
 
 A-Star Search is an informed search algorithm that uses a heuristic to guide the exploration.
 
-**Python Code:**
+**Simplified Python Code:**
 
 ```python
 import heapq
@@ -112,7 +112,7 @@ def ast(initial_state):
 In the code, `heuristic()` represents the heuristic function, and `cost()` represents the cost function.
 
 **Heuristic Function:**
-In the context of the 8-puzzle problem, the heuristic function estimates the distance from the current state to the goal state, guiding the A-Star Search algorithm. The Manhattan Distance heuristic is commonly used for this problem. Here is a simplified pseudo-Python code snippet for the heuristic function:
+In the context of the 8-puzzle problem, the heuristic function estimates the distance from the current state to the goal state, guiding the A-Star Search algorithm. The Manhattan Distance heuristic is commonly used for this problem. Here is a simplified Python code snippet for the heuristic function:
 
 ```python
 function getHeuristic(state):
@@ -133,7 +133,7 @@ This pseudo code calculates the Manhattan Distance for each tile and accumulates
 
 **Cost Function:**
 
-The cost function in the 8-puzzle problem represents the actual cost incurred to reach a particular state from the initial state. In BFS and DFS implementations, the cost is incremented by one for each move. Here is a simplified pseudo-Python code snippet for the cost function:
+The cost function in the 8-puzzle problem represents the actual cost incurred to reach a particular state from the initial state. In BFS and DFS implementations, the cost is incremented by one for each move. Here is a simplified Python code snippet for the cost function:
 
 ```python
 function cost_of_path(node):
@@ -150,4 +150,4 @@ This pseudo code increments the cost for each move in the solution path, providi
 
 ## Conclusion
 
-Solving the 8-puzzle problem provides an excellent opportunity to explore different search algorithms and their implementations. The simplified Python code provided gives a practical look at BFS, DFS, and A-Star Search, showcasing the versatility of these techniques in solving combinatorial search problems. Understanding these algorithms and their trade-offs is fundamental in the field of artificial intelligence and problem-solving. The ability to choose and implement appropriate search strategies is a valuable skill for tackling a variety of computational challenges.
+Solving the 8-puzzle problem provides an excellent opportunity to explore different search algorithms and their implementations. The simplified Python code provided gives a practical look at BFS, DFS, and A-Star Search, showcasing the versatility of these techniques in solving combinatorial search problems. Understanding these algorithms and their trade-offs is fundamental in the field of artificial intelligence and problem-solving.
