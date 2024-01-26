@@ -4,8 +4,7 @@ email:  # email of site's author
 url: https://sagrd.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  Hi, I'm Sagar. Join me on this blog(rss) as we explore  technical intricacies of Machine Learning, Analytics and Data Engineering.
-
+  Hi, I'm Sagar Dhungel, Data Science and Engineering Consultant. Join me on this blog(rss) as we explore topics in Machine Learning, Analytics and Data Engineering.
 permalink: /:slug.html
 
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
@@ -17,7 +16,7 @@ theme_config:
   appearance: "light" # can be "light", "dark" or "auto"
   back_home_text: "Home" # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description in home page
+  show_description: false # show blog description in home page
 
 sass:
   style: :compressed
