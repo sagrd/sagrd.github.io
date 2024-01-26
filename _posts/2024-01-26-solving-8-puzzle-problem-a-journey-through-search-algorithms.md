@@ -6,22 +6,22 @@ category: mlandai
 ## Introduction
 
 ```
-+-----+-----+----+              +-----+-----+----+
-|     |     |    |              |     |     |    |
-|  2  | 5   | 7  |              |  1  |  2  | 3  |
-+-----+-----+----+              +-----+-----+----+
-|     |     |    |              |     |     |    |
-|  1  |  6  | 8  |  --------->  |  4  |  5  | 6  |
-|     |     |    |              |     |     |    |
-+-----+-----+----+              +-----+-----+----+
-|     |     |    |              |     |     |    |
-|  3  |  4  |    |              |  7  |  8  |    |
-+-----+-----+----+              +-----+-----+----+ 
++-----+-----+----+       +-----+-----+----+
+|     |     |    |       |     |     |    |
+|  2  | 5   | 7  |       |  1  |  2  | 3  |
++-----+-----+----+       +-----+-----+----+
+|     |     |    |       |     |     |    |
+|  1  |  6  | 8  +------>|  4  |  5  | 6  |
+|     |     |    |       |     |     |    |
++-----+-----+----+       +-----+-----+----+
+|     |     |    |       |     |     |    |
+|  3  |  4  |    |       |  7  |  8  |    |
++-----+-----+----+       +-----+-----+----+
 ```
 
-The 8-puzzle problem, also known as the N-puzzle, is a classic puzzle that involves arranging numbered tiles in ascending order on a square grid with one empty space. In this blog post, we'll explore the implementation of three search algorithms – Breadth-First Search (BFS), Depth-First Search (DFS), and A-Star Search (AST) – to solve the 8-puzzle problem. The accompanying simplified Python code provides a practical look at these algorithms.
+The 8-puzzle problem, also known as the N-puzzle, is a classic puzzle that involves arranging numbered tiles in ascending order on a square grid with one empty space. In this post, we'll explore the implementation of three search algorithms – Breadth-First Search (BFS), Depth-First Search (DFS), and A-Star Search (AST) – to solve the 8-puzzle problem. The accompanying simplified Python code provides a practical look at these algorithms.
 
-Python implementation of this can be found in [this](https://github.com/sagrd/8-puzzle-solver) repo.
+Complete python implementation of the task can be found in [this](https://github.com/sagrd/8-puzzle-solver) repo.
 
 ## The 8-Puzzle Problem
 
