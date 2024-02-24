@@ -3,41 +3,22 @@
 
 entries:
   - title: "Hi, I'm  <a href='https://www.linkedin.com/in/sagardhungel/'>Sagar</a>, a Data Science and Engineering Consultant. Join me on this blog<a href='https://sagrd.github.io/feed.xml'>(rss)</a> as we dive into the technical intricacies of Machine Learning, Analytics and Data Engineering."
-
-  - title: machine learning & ai
-    post_list:
-      category: mlandai
-      show_more: true
-      show_more_text: all posts...
-      show_more_url: archive-mlandai.html
-
-  - title: data engineering
-    post_list:
-      category: dataengineering
-      show_more: true
-      show_more_text: all posts...
-      show_more_url: archive-dataengineering.html
-
-  - title: all posts
+  - title: what’s on my mind lately?
+    zettel_list:
+      limit: 2
+      show_more: false
+  - title: essays
     post_list:
       limit: 5
       show_more: true
       show_more_text: all posts ...
       show_more_url: archive.html
-
-  - title: videos
-    post_list:
-      category: videos
+  - title: zettelkasten
+    zettel_list:
+      limit: 6
       show_more: true
-      show_more_text: All posts...
-      show_more_url: archive-videos.html
+      show_more_text: all posts ...
+      show_more_url: archive-zettel.html
 
-  - title: another list
-    entries:
-      - title: with subitems
-        entries:
-          - title: with subsubitems
-          - title: example page
-            url: about
 
 

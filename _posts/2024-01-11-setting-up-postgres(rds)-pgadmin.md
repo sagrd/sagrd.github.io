@@ -1,6 +1,5 @@
 ---
 layout: post
-category: videos
 ---
 
 In the video, we'll walk through creating Postgres server in AWS and connecting it with pgAdmin.

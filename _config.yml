@@ -5,7 +5,7 @@ url: https://sagrd.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   Hi, I'm Sagar Dhungel, Data Science and Engineering Consultant. Join me on this blog(rss) as we explore topics in Machine Learning, Analytics and Data Engineering.
-permalink: /:slug.html
+permalink: /:slug.md.html
 
 favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
 goat_counter: "sagrd" # put your GoatCounter name if you want to use GoatCounter analytics
@@ -24,3 +24,8 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+collections:
+  zettels:
+    output: true
+

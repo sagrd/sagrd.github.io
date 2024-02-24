@@ -7,7 +7,6 @@
       {{ item.title }}
     {%- endif -%}
     </li>
-
     {%-if item.post_list-%}
       {%
         include post_list.html
@@ -18,7 +17,16 @@
           show_more_url=item.post_list.show_more_url
      -%}
     {%-endif-%}
-
+    {%-if item.zettel_list-%}
+      {%
+        include zettel_list.html
+          category=item.zettel_list.category
+          limit=item.zettel_list.limit
+          show_more=item.zettel_list.show_more
+          show_more_text=item.zettel_list.show_more_text
+          show_more_url=item.zettel_list.show_more_url
+     -%}
+    {%-endif-%}
     {%-if item.entries-%}
       {%-include menu_item.html collection=item.entries-%}
     {%-endif-%}

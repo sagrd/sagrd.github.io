@@ -1,6 +1,5 @@
 ---
 layout: post
-category: videos
 ---
 
 On this series of video we will go through basic of cron tab and schedule a simple logging script with it.

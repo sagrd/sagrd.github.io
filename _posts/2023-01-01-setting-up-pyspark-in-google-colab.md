@@ -1,6 +1,5 @@
 ---
 layout: post
-category: dataengineering
 ---
 
 *Note: Newer versions of libraries are available*
