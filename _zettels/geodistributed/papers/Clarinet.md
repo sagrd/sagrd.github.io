@@ -5,6 +5,6 @@ category: flash
 tags:
   - geo-distributed
   - article
-article-name: "Clarinet: WAN-Aware Optimization for Analytics Queries which can add up"
+article-name: "Clarinet: WAN-Aware Optimization for Analytics"
 link: https://www.usenix.org/conference/osdi16/technical-sessions/presentation/viswanathan
 ---
