@@ -1,7 +1,7 @@
 ---
 date: 2024-01-01
 layout: zettel
-category: distributed-serverless
+category: flash
 tags:
   - distributed-serverless
 ---

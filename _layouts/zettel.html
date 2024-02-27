@@ -17,4 +17,7 @@ layout: default
   </p>
 
   {{ content | replace: ".md", "" }}
+  {%-if content.size < 10-%}
+    <p>This zettel has not been filled yet.</p>
+  {%-endif-%}
 </article>
