@@ -4,7 +4,7 @@ layout: zettel
 category: flash
 tags:
   - geo-distributed
-  - research-paper
-paper-name: "Clarinet: WAN-Aware Optimization for Analytics Queries"
+  - article
+article-name: "Clarinet: WAN-Aware Optimization for Analytics Queries which can add up"
 link: https://www.usenix.org/conference/osdi16/technical-sessions/presentation/viswanathan
 ---

@@ -4,7 +4,7 @@ layout: zettel
 category: flash
 tags:
   - geo-distributed
-  - research-paper
+  - article
 link: https://minlanyu.seas.harvard.edu/writeup/eurosys18.pdf
-paper-name: Wide-Area Analytics with Multiple Resources
+article-name: Wide-Area Analytics with Multiple Resources
 ---

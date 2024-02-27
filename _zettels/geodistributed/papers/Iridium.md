@@ -4,7 +4,7 @@ layout: zettel
 category: flash
 tags:
   - geo-distributed
-  - research-paper
+  - article
 link: https://pages.cs.wisc.edu/~akella/papers/gda-sigcomm15.pdf
-paper-name: Low Latency Geo-distributed Data Analytics
+article-name: Low Latency Geo-distributed Data Analytics
 ---

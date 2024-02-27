@@ -2,8 +2,8 @@
 .bundle
 .jekyll-cache
 .sass-cache
-_zettels/.obsidian
-**/private
+_zettels/.obsidian/
+**/private/
 _site
 vendor
 Gemfile.lock
