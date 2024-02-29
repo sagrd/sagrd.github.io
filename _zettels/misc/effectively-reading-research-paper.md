@@ -1,11 +1,11 @@
 ---
 date: 2024-02-27
 layout: zettel
-category: 
+category: show
 tags:
   - article
 link: https://geniuslabgear.com/blogs/phd/how-to-read-scientific-papers-organize-for-literature-review#:~:text=Read%20in%20this%20order%3A%20Abstract,supercharge%20your%20chances%20of%20citation.
-article-name: HOW TO READ SCIENTIFIC PAPERS QUICKLY (AND EFFECTIVELY ORGANIZE THEM FOR A LITERATURE REVIEW)
+article-name: How To Read Scientific Papers Quickly (And Effectively Organize Them For A Literature Review)
 ---
 1. Read the Abstract
 	1. Is the research applicable to what you need right now?
@@ -21,7 +21,7 @@ article-name: HOW TO READ SCIENTIFIC PAPERS QUICKLY (AND EFFECTIVELY ORGANIZE TH
 	- Keywords (or hashtags)
 	- Abstract
 	- Summary of what the paper says and does, in your words:
-		- Problem, approach, methods, conclusions as stated by the authors
+		- Problem, Approach/Intuition, Implementation, conclusion as stated by the authors
 		- What did they thought of their own paper
 	- Summary of what you thought of the paper:
 		- Is it fundamentally sound? 

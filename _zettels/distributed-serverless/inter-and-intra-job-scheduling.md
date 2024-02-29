@@ -1,7 +1,7 @@
 ---
 date: 2024-02-23
 layout: zettel
-category: flash
+category: 
 tags:
   - scheduling
   - distributed-serverless

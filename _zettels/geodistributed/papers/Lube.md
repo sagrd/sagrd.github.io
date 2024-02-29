@@ -1,7 +1,7 @@
 ---
 date: 2024-02-27
 layout: zettel
-category: flash
+category: 
 tags:
   - geo-distributed
   - article
