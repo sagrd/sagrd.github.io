@@ -1,5 +1,5 @@
 ---
-date: 
+date: 2024-02-29
 layout: zettel
 category: 
 tags:
