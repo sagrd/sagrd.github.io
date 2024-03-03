@@ -14,7 +14,12 @@
 {%- if posts.size > 0 -%}
     {%- assign even_numbers = "" | split: "," -%}
     {%- assign odd_numbers = "" | split: "," -%}
-    {%- assign indexed_limit = include.limit | minus: 1 -%}
+    {%-if include.limit-%}
+      {%- assign indexed_limit = include.limit | minus: 1 -%}
+    {%-else-%}
+      {%- assign indexed_limit = posts.size | minus: 1 -%}   
+    {%-endif-%}
+    
 
     {%- for i in (0..indexed_limit) -%}
       {% assign value = i | modulo:2 %}
