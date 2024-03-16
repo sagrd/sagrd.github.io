@@ -1,11 +1,12 @@
 ---
 date: 2024-03-11
 layout: zettel
-category: 
+category: showcase
 tags:
   - data-streaming
 ---
 - Following are the benefits of [stream-processing](glossary/stream-processing.md)
+$multiflash
 	- Better for architecture where limited set of recent data is needed 
 	- for real time insights
 	- More scalable as its a type of [distributed-systems](../distributed-systems/distributed-systems.md)

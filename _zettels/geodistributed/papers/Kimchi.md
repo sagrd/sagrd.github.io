@@ -1,7 +1,7 @@
 ---
 date: 2024-02-29
 layout: zettel
-category: 
+category: showcase
 tags:
   - geo-distributed
   - article

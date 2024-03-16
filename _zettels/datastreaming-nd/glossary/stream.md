@@ -5,5 +5,6 @@ category:
 tags:
   - data-streaming
 ---
-- What is stream??
+- What is stream
+$multiflash
 	- Stream is potentially endless and continuously evolving source of data

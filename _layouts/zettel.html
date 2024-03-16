@@ -24,7 +24,7 @@ layout: default
   </blockquote>
 
 
-  {{ content | replace: ".md", "" }}
+  {{ content | replace: ".md", "" | replace: "$multiflash", "" }}
   {%-if content.size < 10-%}
     <p>This zettel has not been filled yet.</p>
   {%-endif-%}

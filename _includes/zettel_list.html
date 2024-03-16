@@ -1,5 +1,5 @@
 {%-if include.category-%}
-  {%-assign posts = site.zettels[include.zettels]-%}  
+  {%-assign posts = site.zettels | where: "category", "showcase" |sort: "date"-%}  
 {%-else-%}
   {%-assign posts = site.zettels|sort: "date"| reverse-%}
 {%-endif-%}
@@ -9,6 +9,7 @@
 {%-else-%}
   {%-assign limit_exceeded = false-%}
 {%-endif-%}
+
 
 
 {%- if posts.size > 0 -%}

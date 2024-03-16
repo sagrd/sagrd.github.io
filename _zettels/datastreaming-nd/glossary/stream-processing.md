@@ -5,7 +5,8 @@ category:
 tags:
   - data-streaming
 ---
-What is stream processing ??
+What is stream processing 
+$multiflash
 - Stream processing is the act of performing calculations on [stream](stream.md). Here are some of the properties of data stream.
 	- The data in stream processing is immutable ie it doesn't change / can't be updated.
 	- Another data stream can be placed in the stream that supersedes the previous data entry if necessary.

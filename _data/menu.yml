@@ -5,6 +5,7 @@ entries:
   - title: "Hello, I'm <a href='https://www.linkedin.com/in/sagardhungel/' target='_blank'>Sagar</a>, a Data Science and Engineering Consultant. Welcome to my blog<a href='https://sagrd.github.io/feed.xml'>(rss)</a>, a digital repository of my Zettelkasten. Here, I consistently jot down notes to deepen my understanding of what I've learned and to delve into fresh ideas."
   - title: what’s on my mind lately?
     zettel_list:
+      category: showcase
       limit: 2
       show_more: false
       
