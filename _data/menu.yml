@@ -11,16 +11,16 @@ entries:
       
   - title: essays
     post_list:
-      limit: 5
-      show_more: true
-      show_more_text: all posts ...
-      show_more_url: archive.html
-
-  - title: '<a href="https://en.wikipedia.org/wiki/Zettelkasten" target="_blank">Zettelkasten</a>, meaning "slip box" in German, comprises small information items stored on paper slips or zettels, which can be linked to each other. Below is the list of my last 10 zettels.'
-    zettel_list:
       limit: 10
       show_more: true
-      show_more_text: all zettels ...
+      show_more_text: see all posts ...
+      show_more_url: archive.html
+
+  - title: '<a href="https://en.wikipedia.org/wiki/Zettelkasten" target="_blank">Zettelkasten</a>, meaning "slip box" in German, comprises small information items stored on paper slips or zettels, which can be linked to each other. Below is the list of my last 20 zettels.'
+    zettel_list:
+      limit: 20
+      show_more: true
+      show_more_text: see all zettels ...
       show_more_url: archive-zettel.html
 
 

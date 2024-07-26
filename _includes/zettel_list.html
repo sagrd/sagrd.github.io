@@ -12,7 +12,7 @@
 
 
 
-{%- if posts.size > 0 -%}
+<!-- {%- if posts.size > 0 -%}
     {%- assign even_numbers = "" | split: "," -%}
     {%- assign odd_numbers = "" | split: "," -%}
     {%-if include.limit-%}
@@ -51,5 +51,49 @@
         </ul>
       </div> 
     </div>
+{%- endif -%} -->
+
+
+{%- if posts.size > 0 -%}
+    {%- assign even_numbers = "" | split: "," -%}
+    {%- assign odd_numbers = "" | split: "," -%}
+    {%-if include.limit-%}
+      {%- assign indexed_limit = include.limit | minus: 1 -%}
+    {%-else-%}
+      {%- assign indexed_limit = posts.size | minus: 1 -%}   
+    {%-endif-%}
+    
+
+    {%- for i in (0..indexed_limit) -%}
+      {% assign value = i | modulo:2 %}
+      {%- if value == 0 -%}
+        {%- assign even_numbers = even_numbers | push: i -%}
+      {%- else %}
+        {%- assign odd_numbers = odd_numbers | push: i -%}
+      {%- endif -%}
+    {%- endfor -%}
+<div class="container">  
+  <div class="column">
+    <ul>
+      {%- for post_index in even_numbers -%}
+        {%- assign post = posts[post_index] -%}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a></li>
+      {%- endfor -%}
+      {%- if include.show_more and limit_exceeded -%}
+        <li><a href="{{ include.show_more_url }}"><b>{{ include.show_more_text | default: "Show more..." }}</b></a></li>
+      {%- endif -%}
+    </ul>
+  </div> 
+
+  <div class="column">
+    <ul>
+      {%- for post_index in odd_numbers -%}
+        {%- assign post = posts[post_index] -%}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title | downcase }}</a></li>
+      {%- endfor -%}
+
+    </ul>
+  </div> 
+</div>
 {%- endif -%}
 
