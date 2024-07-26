@@ -11,7 +11,7 @@ link: https://www.usenix.org/conference/osdi16/technical-sessions/presentation/v
 Problem:
 - Existing query optimizer do not consider network (heterogenous and variable bandwidth) or [wan-constraints-geo-distributed-systems](../concepts/wan-constraints-geo-distributed-systems.md) when preparing query execution plan 
 Intuition:
-- Getting WAN aware execution plan requires working with execution layer (of analytical framework) responsible for [[task-placement]]  across sites and [[tasks-scheduling]]
+- Getting WAN aware execution plan requires working with execution layer (of analytical framework) responsible for [[../concepts/task-placement]]  across sites and [[../concepts/tasks-scheduling]]
 - Factors affecting latency
 	- Choice of join order
 	- Optimization of [task-placement](../concepts/task-placement.md) involves moving intermediate data less. So we'd have to consider running time from base task placement.

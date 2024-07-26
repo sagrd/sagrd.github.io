@@ -6,7 +6,6 @@ tags:
   - data-streaming
 ---
 - Batch Processing vs [stream-processing](glossary/stream-processing.md) comparison 
-$multiflash
 	- Batch Processing
 		- Usually runs on scheduled basis
 		- May take longer time to run and usually stores the result somewhere

@@ -6,7 +6,6 @@ tags:
   - data-streaming
 ---
 - The components of [stream-processing](glossary/stream-processing.md) application includes
-$multiflash
 	- data store - this may look like a message queue (eg: kafka) or SQL store (eg: Apache Cassendra)
 		- Its responsible for holding all immutable events data in the system.
 		- Should guarantee that data is ordered according to created time

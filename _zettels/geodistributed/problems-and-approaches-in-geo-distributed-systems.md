@@ -6,7 +6,6 @@ tags:
   - geo-distributed
 ---
 - Problems and Approaches in [[geo-distributed-systems ]]
-$multiflash
 	- low response times(latency) for analytics queries issued across all geo-distributed sites
 		- Most common approach is loading relevant data to a datacenter and centrally executing it.
 			- Not ideal as this is slow and we might need (near) real time analysis
