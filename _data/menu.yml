@@ -2,7 +2,7 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: "Hello, I'm <a href='/about' >Sagar</a>, Data Science and Engineering Consultant. Welcome to my blog<a href='https://sagrd.github.io/feed.xml'>(rss)</a>, a digital repository of my Zettelkasten where I explore note-taking, personal knowledge management, and collaborative learning."
+  - title: "Hello, I'm <a href='/about'>Sagar</a>, Data Science and Engineering Consultant. Welcome to my blog<a href='https://sagrd.github.io/feed.xml'>(rss)</a>, a digital repository of my Zettelkasten where I explore note-taking, personal knowledge management, and collaborative learning."
   - title: what’s on my mind lately?
     zettel_list:
       category: showcase
