@@ -2,7 +2,7 @@
 # https://github.com/riggraz/no-style-please#customize-the-menu
 
 entries:
-  - title: "Hello, I'm <a href='/about' target='_blank'>Sagar</a>, Data Science and Engineering Consultant. Welcome to my blog<a href='https://sagrd.github.io/feed.xml'>(rss)</a>, a digital repository of my Zettelkasten where I explore note-taking, personal knowledge management, and collaborative learning."
+  - title: "Hello, I'm <a href='/about'>Sagar</a>, Data Science and Engineering Consultant. Welcome to my blog<a href='https://sagrd.github.io/feed.xml'>(rss)</a>, a digital repository of my Zettelkasten where I explore note-taking, personal knowledge management, and collaborative learning."
   - title: what’s on my mind lately?
     zettel_list:
       category: showcase
@@ -11,15 +11,15 @@ entries:
       
   - title: essays
     post_list:
-      limit: 10
+      limit: 5
       show_more: true
       show_more_text: see all posts ...
       show_more_url: archive.html
 
-  - title: " You noticed a Mysterious door. <a href='http://localhost:4000/zettels/sevenseas/no-one-answers'>You Knock</a>!"
+  - title: " You noticed a Mysterious door. <a href='/zettels/sevenseas/no-one-answers'>You Knock</a>!"
   - title: '<a href="https://en.wikipedia.org/wiki/Zettelkasten" target="_blank">Zettelkasten</a>, meaning "slip box" in German, comprises small information items stored on paper slips or zettels, which can be linked to each other. Below is the list of my last 30 zettels.'
     zettel_list:
-      limit: 30
+      limit: 20
       show_more: true
       show_more_text: see all zettels ...
       show_more_url: archive-zettel.html
