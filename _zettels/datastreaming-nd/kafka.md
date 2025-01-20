@@ -5,7 +5,8 @@ category: showcase
 tags:
   - data-streaming
 link: https://www.youtube.com/watch?v=sa1SkPWifBk
-article-name: Apache Kafka Series
+title: kafka
+article-name: Apache Kafka - Introduction & Architecture
 ---
 - Kafka is distributed streaming message platform
 	- [distributed-systems](../distributed-systems/distributed-systems.md) : 

@@ -4,12 +4,9 @@ layout: zettel
 category: show
 tags:
   - data-streaming
+title: Exploration on how kafka stores data internally
 ---
-- Exploration of how data is stored in partitions internally
-```# Explore how Kafka Works
-
-In this section you reviewed Kafka's architecture and how it stores data. In this exercise, you
-will spend some time seeing how Kafka works.
+Exploration of how data is stored in partitions internally
 
 ## Topic Storage
 
@@ -56,4 +53,3 @@ Try repeating the steps from [the previous section](#dir). How many folders do y
 
 Try modifying the number of partitions a few more times to see how Kafka modifies the data on disk.
 
-```

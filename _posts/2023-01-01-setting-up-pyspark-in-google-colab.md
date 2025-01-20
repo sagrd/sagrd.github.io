@@ -37,6 +37,6 @@ spark = SparkSession.builder.master("local[*]").getOrCreate()
 spark
 ```
 The spark keyword on the above code initiates local spark session.
-![spark session](https://imgur.com/a/xeST6kS){:.ioda}
+![spark session](../images/spark-output.png){:.ioda}
 
 Congras, you can now run and use PySpark in Google Colab. Happy Analytics.

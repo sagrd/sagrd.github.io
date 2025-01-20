@@ -1,7 +1,7 @@
 ---
 date: 2014-02-27
 layout: zettel
-category: 
+category: show
 tags:
   - geo-distributed
   - article
