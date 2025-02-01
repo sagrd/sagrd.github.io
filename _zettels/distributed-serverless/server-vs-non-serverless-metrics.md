@@ -1,9 +1,10 @@
 ---
 date: 2024-02-12
 layout: zettel
-category: 
+category: show
 tags:
   - distributed-serverless
+title: what are serverless and  non-serverless metrics in distributed system
 ---
 What are difference between metrics for evaluating performance of [distributed-serverless](distributed-serverless.md) and [distributed-systems](../distributed-systems/distributed-systems.md) based infrastructures
 - For server-based systems, metrics include Average JCT, cluster utilization and fairness across jobs; they are inter-job scheduling metrics
