@@ -5,8 +5,7 @@ category: showcase
 link: https://www.youtube.com/watch?v=sa1SkPWifBk
 tags:
   - data-streaming
-title: architecture of kafka
-article-name: Apache Kafka - Introduction & Architecture
+article-name: Apache Kafka Series
 ---
 - Architecture of 3 node [kafka](kafka.md) cluster ![](attachments/Pasted%20image%2020240817175609.png)
 
@@ -14,7 +13,7 @@ article-name: Apache Kafka - Introduction & Architecture
 	- Similar to entity / table in data system
 	- This include messages (aka records) created by kafka producers
 	- Name of topic is unique across kafka cluster (just like table name is unique in database)
-	- See also [kafka-topic-data-management](kafka-topic-data-management.md)
+	- 
 - Messages:
 	- Kafka record in a topic
 	- Consists of key-value pair and metadata
@@ -76,7 +75,6 @@ article-name: Apache Kafka - Introduction & Architecture
 			- 
 - Producers:
 	- Data Producers: produce message to a topic; eg: backend application writing to a database system.
-	- synchronous and asynchronous data producers; additional configuration options includes batch size, client identifiers, compression, and acknowledgements
 	- How is data published? (aka: data publishing strategy)
 		- if partitionid is specified in message -> To a specific partition 
 		- If no partitionid specified -> Should be based on hash value of key and total number of functions

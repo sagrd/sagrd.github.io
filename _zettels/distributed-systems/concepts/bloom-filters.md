@@ -1,10 +1,9 @@
 ---
 date: 2024-02-28
 layout: zettel
-category: show
+category: 
 tags:
   - distributed-systems
-title: what are bloom filters?
 ---
 How to improve performance of joins with bloom filter
 - We can improve the performance of some joins by pre-filtering one side of a join using a Bloom filter and IN predicate generated from the values from the other side of the join.

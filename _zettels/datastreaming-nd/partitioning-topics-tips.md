@@ -4,7 +4,7 @@ layout: zettel
 category: showcase
 tags:
   - data-streaming
-title: how to partition topics in kafka
+link:
 ---
 - There is no “right” number of partitions. Its is highly dependent on the scenario.
 - The most important number to understand is desired throughput. How many MB/s do you need to achieve to hit your goal?

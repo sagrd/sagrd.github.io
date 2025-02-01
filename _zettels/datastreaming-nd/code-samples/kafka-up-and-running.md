@@ -5,8 +5,7 @@ category: showcase
 link: https://www.youtube.com/watch?v=sa1SkPWifBk
 tags:
   - data-streaming
-title: up and running kafka
-article-name: Kafka up and running
+article-name: Apache Kafka Series
 ---
 - Installation Summary:
 	- Download [kafka](kafka.md), append path variable, symbolic links, etc. 
@@ -56,3 +55,6 @@ article-name: Kafka up and running
 		- 
 	- Verify deletion by listing topics again:
 		- `kafka-topics --list --zookeeper localhost:2181`
+
+- Also see the complete code [kafka-python-demo](kafka-python-demo.md)
+-

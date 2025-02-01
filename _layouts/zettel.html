@@ -10,23 +10,20 @@ layout: default
   </p>
   
   <h1>{{ page.title }}</h1>
-  {%- if page.category != "hide" -%}
-    <blockquote>
-      <p><b>tags:</b>
-          {%- for tag in page.tags -%}
-             <em> #{{tag}} </em> 
-          {%- endfor -%}
-      </p>
-      {%- if page.tags contains "article" -%}
-          <p><b>source:</b> {{page.article-name}} 
-            <a href="{{page.link}}" target="_blank">[link]</a>
-          </p>
-      {%- endif -%}
-    </blockquote>
-  {%- endif -%}
+  <blockquote>
+    <p><b>tags:</b>
+    {%- for tag in page.tags -%}
+       <em> #{{tag}} </em> 
+    {%- endfor -%}
+    </p>
+    {%- if page.tags contains "article" -%}
+        <p><b>source:</b> {{page.article-name}} 
+          <a href="{{page.link}}" target="_blank">[link]</a>
+        </p>
+    {%- endif -%}
+  </blockquote>
 
 
-  <!-- {{ content | replace: ".md", "" | replace: "$multiflash", "" }} -->
   {{ content | replace: ".md", "" | replace: "$multiflash", "" }}
   {%-if content.size < 10-%}
     <p>This zettel has not been filled yet.</p>

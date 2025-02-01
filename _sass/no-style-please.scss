@@ -46,7 +46,7 @@ li { margin: 0.4rem 0; }
 *:target { background: yellow; }
 
 .w {
-  max-width: 960px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
@@ -93,6 +93,7 @@ img {
   margin: 0 auto;
 }
 
+/* Add this to your CSS file */
 .container {
   display: flex;
   flex-wrap: wrap;
