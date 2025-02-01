@@ -4,7 +4,6 @@
   {%- assign show_posts = site.zettels | where: "category", "show" -%}
   {%- assign showcase_posts = site.zettels | where: "category", "showcase" -%}
   {%- assign posts = show_posts | concat: showcase_posts | sort: "date" | reverse -%}
-
 {%-endif-%}
 
 {%-if include.limit and posts.size > include.limit-%}
@@ -12,7 +11,6 @@
 {%-else-%}
   {%-assign limit_exceeded = false-%}
 {%-endif-%}
-
 
 
 {%- if posts.size > 0 -%}
