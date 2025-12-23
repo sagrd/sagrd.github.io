@@ -1,0 +1,16 @@
+{%-assign pages = site.pages | where: "layout", "page"-%}
+{%-if include.category-%}
+  {%-assign pages = pages | where: "category", include.category-%}
+{%-endif-%}
+
+{%-if include.limit and include.limit > 0-%}
+  {%-assign pages = pages | slice: 0, include.limit-%}
+{%-endif-%}
+
+{%-for page in pages-%}
+  <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+{%-endfor-%}
+
+{%-if include.show_more and include.show_more_text and include.show_more_url-%}
+  <li><a href="{{ include.show_more_url }}">{{ include.show_more_text }}</a></li>
+{%-endif-%}

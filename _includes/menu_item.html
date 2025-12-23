@@ -1,6 +1,9 @@
 <ul>
   
   {%-for item in include.collection-%}
+    {%- if item.type == "gap" -%}
+      <li style="list-style: none; margin: 1.5em 0;"></li>
+    {%- else -%}
     <li>
     {%- if item.url -%}
       <a href="{{ item.url }}">{{ item.title }}</a>
@@ -8,6 +11,7 @@
       {{ item.title }}
     {%- endif -%}
     </li>
+    {%- endif -%}
     {%-if item.post_list-%}
       {%
         include post_list.html

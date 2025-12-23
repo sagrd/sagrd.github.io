@@ -10,7 +10,7 @@ entries:
       show_more: true
       show_more_text: see all posts ...
       show_more_url: archive.html
-  - title: ""
+  - type: gap
   - title: See my <a href="/archive.html">writings</a>. I also maintain a personal Zettelkasten (German for “slip box”)—a collection of small, interconnected notes that help me think, learn, and write more clearly. You can browse all of my zettels <a href="/archive-zettel.html">here</a>.
 
 
