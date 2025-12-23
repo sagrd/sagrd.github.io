@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact
+title: Get in touch
 ---
 <style>
   .contact-section {
@@ -76,9 +76,6 @@ title: Contact
     border-radius: 0.375rem;
   }
 </style>
-
-
-
 
 <div class="container">  
   <div class="column"> 

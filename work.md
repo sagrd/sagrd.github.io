@@ -23,7 +23,7 @@ Data science and engineering professional with expertise in machine learning, cl
 	- Developed diverse ML solutions including Nepali language models, facial detection systems, chatbots, and PySpark-based analytics for predictive maintenance and user behavior
 
 - **AI Fellow @ Fusemachines** [June 2017 - December 2018]
-	- Applied AI algorithms to game-solving challenges and contributed to research projects in computer graphics and robotics.
+	- Applied AI algorithms to game-solving challenges and completed to projects in computer graphics and robotics.
 
 ## Education
 
@@ -33,3 +33,4 @@ Data science and engineering professional with expertise in machine learning, cl
 	- Columbia University, New York
 
 ---
+Think my experience aligns with your needs? or got any questions that I can help with? Let's <a href='/contact'>connect.</a>
