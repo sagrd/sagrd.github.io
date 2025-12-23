@@ -3,21 +3,33 @@ layout: page
 title: Work Experience
 ---
 
-## Data Engineering Consultant (2020-Present)
+Data science and engineering professional with expertise in machine learning, cloud platforms, and modern data stack implementations. Currently working as a consultant helping organizations optimize their data infrastructure and analytics capabilities.
 
-### Key Projects
+## Experience
 
-**Audible - Audio Content Analytics Pipeline**
-- Built real-time data pipeline processing 10M+ audio events daily
-- Implemented ML models for content recommendation using Apache Spark
-- Reduced data processing time by 60% through optimized ETL workflows
+- **Data Science and Engineering Consultant** [January 2023 - Present]
+	- Optimized database queries and ETL pipelines while migrating legacy systems to modern data infrastructure and providing ML/data engineering training.
 
-**Bill & Melinda Gates Foundation - Health Data Platform**
-- Designed scalable data warehouse for global health metrics
-- Created automated reporting dashboards serving 200+ stakeholders
-- Integrated data from 15+ countries with 99.9% uptime
+- **Data Engineer @ Hearts & Science** [September 2020 - January 2023]
+	- Built data applications and ML models for major clients while establishing and maintaining a scalable JupyterHub environment and AWS infrastructure for 100+ users.
 
-**Hyundai - Manufacturing Analytics**
-- Developed IoT data ingestion system for factory sensors
-- Built predictive maintenance models reducing downtime by 40%
-- Implemented real-time quality control monitoring
+- **Artificial Intelligence Instructor @ MPercept Academy** [March 2020 - August 2020]
+	- Designed and taught curriculum for a comprehensive 6-month Machine Learning and Deep Learning program.
+
+- **Assistant Instructor - Data Science @ NMB Bank**  [January 2020 - February 2020]
+	- Presented fintech professionals on data science concepts, analytics tools, and practical applications while supporting hands-on learning activities.
+
+- **Machine Learning Engineer @ MPercept Technology** [July 2019 - August 2020]
+	- Developed diverse ML solutions including Nepali language models, facial detection systems, chatbots, and PySpark-based analytics for predictive maintenance and user behavior
+
+- **AI Fellow @ Fusemachines** [June 2017 - December 2018]
+	- Applied AI algorithms to game-solving challenges and contributed to research projects in computer graphics and robotics.
+
+## Education
+
+- BSc. Computer Science & Information Technology (2019)
+	- St. Xavier's College, Maitighar, Kathmandu 2019
+- Micromasters in AI (Online) (2018)
+	- Columbia University, New York
+
+---

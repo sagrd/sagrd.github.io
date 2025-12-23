@@ -1,7 +1,7 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
 entries:
-  - title: "I'm a data science and engineering consultant and have spent <a href='/work'>a decade</a> building machine learning and data engineering pipelines and infrastructure for clients like Audible, the Bill & Melinda Gates Foundation, and Hyundai, etc with a focus on scalable data analytics solutions."
+  - title: "I'm a data science and engineering consultant and have spent <a href='/work'>a decade</a> building machine learning and data engineering pipelines and infrastructure for clients like Audible, the Bill & Melinda Gates Foundation, and Hyundai, etc."
   - title: Want to say hello or got a problem that I can help you with? <a href='/about'>Contact me</a> 
   - type: gap
   - title: Case Studies
@@ -11,6 +11,6 @@ entries:
       show_more_text: see all posts ...
       show_more_url: archive.html
   - type: gap
-  - title: See my <a href="/archive.html">writings</a>. I also maintain a personal Zettelkasten (German for “slip box”)—a collection of small, interconnected notes that help me think, learn, and write more clearly. You can browse all of my zettels <a href="/archive-zettel.html">here</a>.
+  - title: I also maintain a personal Zettelkasten (German for “slip box”)—a collection of small, interconnected notes that help me think, learn, and write more clearly. You can browse all of my zettels <a href="/archive-zettel.html">here</a>.
 
 
