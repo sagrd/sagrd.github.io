@@ -1,24 +1,16 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
 entries:
-  - title: "Hello, I'm <a href='/about'>Sagar</a>, Data Science and Engineering Consultant. Welcome to my blog<a href='https://sagrd.github.io/feed.xml'>(rss)</a>, a digital repository of my Zettelkasten where I explore note-taking, personal knowledge management, and collaborative learning."
-  - title: what’s on my mind lately?
-    zettel_list:
-      category: showcase
-      limit: 2
-      show_more: false
-      
-  - title: essays
+  - title: "I'm a data science and engineering consultant and have spent <a href='/work'>a decade</a> building machine learning and data engineering pipelines and infrastructure for clients like Audible, the Bill & Melinda Gates Foundation, and Hyundai, etc with a focus on scalable data analytics solutions."
+  - title: Want to say hello or got a problem that I can help you with? <a href='/about'>Contact me</a> 
+  - type: gap
+  - title: Case Studies
     post_list:
       limit: 5
       show_more: true
       show_more_text: see all posts ...
       show_more_url: archive.html
+  - title: ""
+  - title: See my <a href="/archive.html">writings</a>. I also maintain a personal Zettelkasten (German for “slip box”)—a collection of small, interconnected notes that help me think, learn, and write more clearly. You can browse all of my zettels <a href="/archive-zettel.html">here</a>.
 
-  - title: " You noticed a Mysterious door. <a href='/zettels/sevenseas/no-one-answers'>You Knock</a>!"
-  - title: '<a href="https://en.wikipedia.org/wiki/Zettelkasten" target="_blank">Zettelkasten</a>, meaning "slip box" in German, comprises small information items stored on paper slips or zettels, which can be linked to each other. Below is the list of my last 30 zettels.'
-    zettel_list:
-      limit: 40
-      show_more: true
-      show_more_text: see all zettels ...
-      show_more_url: archive-zettel.html
+
