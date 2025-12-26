@@ -8,7 +8,6 @@ A US-based lead generation agency was operating on an on-premise MS SQL Server o
 ![healthband er diagram](../images/migration.png){:.ioda}
 
 **Challenge:**
-- Analytics queries were impacting production performance
 - Limited scalability and high fixed infrastructure costs
 - Complex legacy schemas with undocumented SQL logic
 - Slow turnaround for new analytics and reporting needs
@@ -17,7 +16,7 @@ A US-based lead generation agency was operating on an on-premise MS SQL Server o
 - Assessed existing SQL schemas, workloads, and critical reports
 - Designed a Snowflake-based data warehouse optimised for analytics
 - Migrated historical and incremental data from SQL Server to Snowflake
-- Refactored T-SQL logic into Snowflake-native transformations
+- Refactored SQL logic into Snowflake-native transformations
 - Enabled role-based access and BI tool integration
 - Ran systems in parallel to validate data accuracy before cutover
 

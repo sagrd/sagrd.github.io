@@ -1,8 +1,9 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
 entries:
-  - title: "I'm a data science and engineering consultant and have spent <a href='/work'>a decade</a> building machine learning and data engineering pipelines and infrastructure for clients like Audible, the Bill & Melinda Gates Foundation, and Hyundai, etc."
-  - title: I'm just a message away. <a href='/contact'>Contact me</a> 
+  - title: Are you dealing with fragmented, low-quality data across systems? Is growing scale increasing costs, slowing decisions, and eroding trust? Do you feel your data is underutilized?
+  - title: "I’m a data science and engineering consultant who has spent <a href='/work'>the past decade</a> fixing these exact challenges. I've built scalable data processes and pipelines for organizations like Audible, the Bill & Melinda Gates Foundation, Hyundai, etc."
+  - title: "I can help you sort these issues, and I’m just a message away. <a href='/contact'>Contact me</a>"
   - type: gap
   - title: Case Studies
     post_list:

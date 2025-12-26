@@ -2,11 +2,8 @@
 layout: page
 title: Work Experience
 ---
-
 Data science and engineering professional with expertise in machine learning, cloud platforms, and modern data stack implementations. Currently working as a consultant helping organizations optimize their data infrastructure and analytics capabilities.
-
 ## Experience
-
 - **Data Science and Engineering Consultant** [January 2023 - Present]
 	- Optimized database queries and ETL pipelines while migrating legacy systems to modern data infrastructure and providing ML/data engineering training.
 

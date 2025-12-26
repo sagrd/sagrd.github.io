@@ -16,9 +16,8 @@ A wearable healthcare company was generating massive high-frequency data in Azur
 - Performed aggregated analytics (daily/weekly) and stored results in PostgreSQL for rapid access to frequently used metrics.
 
 **Outcome**:
-- 95% of abnormal readings detected and alerted in real-time.
-- Reduced churn by 25%.
-- Query times for common metrics cut by 90%.
+- 95% of abnormal readings detected in real-time.
+- Significantly decreased query times for common metrics.
 - Scalable solution capable of handling terabytes of high-frequency data.
 
 ---
