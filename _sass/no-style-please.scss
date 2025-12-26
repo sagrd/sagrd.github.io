@@ -100,14 +100,19 @@ img {
   margin: 0 auto;
 }
 
-/* Add this to your CSS file */
+/* Container and column layout */
 .container {
   display: flex;
   flex-wrap: wrap;
-
+  gap: 2rem;
 }
 
 .column {
-  flex: 0.5;
-  padding: 0.2 rem;
+  flex: 1;
+  min-width: 300px;
+}
+
+input, textarea, button {
+  font-family: inherit;
+  font-size: inherit;
 }

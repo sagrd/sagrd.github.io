@@ -8,7 +8,7 @@ entries:
     post_list:
       limit: 5
       show_more: true
-      show_more_text: see all posts ...
+      show_more_text: see all case studies ...
       show_more_url: archive.html
   - type: gap
   - title: I also maintain a personal Zettelkasten (German for “slip box”)—a collection of small, interconnected notes that help me think, learn, and write more clearly. You can browse all of my zettels <a href="/archive-zettel.html">here</a>.

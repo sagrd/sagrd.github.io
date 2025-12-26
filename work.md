@@ -27,10 +27,8 @@ Data science and engineering professional with expertise in machine learning, cl
 
 ## Education
 
-- BSc. Computer Science & Information Technology (2019)
-	- St. Xavier's College, Maitighar, Kathmandu 2019
-- Micromasters in AI (Online) (2018)
-	- Columbia University, New York
+- BSc. Computer Science & Information Technology (2019) [St. Xavier's College]
+- Micromasters in AI (Online) (2018) [Columbia University]
 
 ---
 Think my experience aligns with your needs? or got any questions that I can help with? Let's <a href='/contact'>connect.</a>
